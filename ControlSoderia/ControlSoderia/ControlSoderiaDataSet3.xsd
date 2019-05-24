@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ControlSoderiaDataSet3" targetNamespace="http://tempuri.org/ControlSoderiaDataSet3.xsd" xmlns:mstns="http://tempuri.org/ControlSoderiaDataSet3.xsd" xmlns="http://tempuri.org/ControlSoderiaDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ControlSoderiaConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ControlSoderiaConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ControlSoderia.Properties.Settings.GlobalReference.Default.ControlSoderiaConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vista_SaldoTableAdapter" GeneratorDataComponentClassName="Vista_SaldoTableAdapter" Name="Vista_Saldo" UserDataComponentName="Vista_SaldoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControlSoderiaConnectionString1 (Settings)" DbObjectName="ControlSoderia.dbo.Vista_Saldo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdCliente, ApeNombre, Suma FROM dbo.Vista_Saldo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdCliente" DataSetColumn="IdCliente" />
+              <Mapping SourceColumn="ApeNombre" DataSetColumn="ApeNombre" />
+              <Mapping SourceColumn="Suma" DataSetColumn="Suma" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ControlSoderiaDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ControlSoderiaDataSet3" msprop:Generator_UserDSName="ControlSoderiaDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vista_Saldo" msprop:Generator_TableClassName="Vista_SaldoDataTable" msprop:Generator_TableVarName="tableVista_Saldo" msprop:Generator_TablePropName="Vista_Saldo" msprop:Generator_RowDeletingName="Vista_SaldoRowDeleting" msprop:Generator_RowChangingName="Vista_SaldoRowChanging" msprop:Generator_RowEvHandlerName="Vista_SaldoRowChangeEventHandler" msprop:Generator_RowDeletedName="Vista_SaldoRowDeleted" msprop:Generator_UserTableName="Vista_Saldo" msprop:Generator_RowChangedName="Vista_SaldoRowChanged" msprop:Generator_RowEvArgName="Vista_SaldoRowChangeEvent" msprop:Generator_RowClassName="Vista_SaldoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCliente" msprop:Generator_ColumnVarNameInTable="columnIdCliente" msprop:Generator_ColumnPropNameInRow="IdCliente" msprop:Generator_ColumnPropNameInTable="IdClienteColumn" msprop:Generator_UserColumnName="IdCliente" type="xs:int" />
+              <xs:element name="ApeNombre" msprop:Generator_ColumnVarNameInTable="columnApeNombre" msprop:Generator_ColumnPropNameInRow="ApeNombre" msprop:Generator_ColumnPropNameInTable="ApeNombreColumn" msprop:Generator_UserColumnName="ApeNombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Suma" msprop:Generator_ColumnVarNameInTable="columnSuma" msprop:Generator_ColumnPropNameInRow="Suma" msprop:Generator_ColumnPropNameInTable="SumaColumn" msprop:Generator_UserColumnName="Suma" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Vista_Saldo" />
+      <xs:field xpath="mstns:IdCliente" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

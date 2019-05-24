@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF5611DB-A2F5-46FD-AE1F-EC481A812740}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlSoderia</RootNamespace>
+    <AssemblyName>ControlSoderia</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_Control_Panel.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DGV2Printer">
+      <HintPath>..\..\..\..\DGV2Printer-master\build\AnyCpu\NET45\DGV2Printer.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="itextsharp">
+      <HintPath>..\..\ControlStock\ControlStock\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Cliente.cs" />
+    <Compile Include="BL\EstadoProducto.cs" />
+    <Compile Include="BL\Mantenimiento_Vehiculo.cs" />
+    <Compile Include="BL\Producto.cs" />
+    <Compile Include="BL\Proveedor.cs" />
+    <Compile Include="BL\Recibo.cs" />
+    <Compile Include="BL\Registro.cs" />
+    <Compile Include="BL\Reparto.cs" />
+    <Compile Include="BL\RutaArchivo.cs" />
+    <Compile Include="BL\Saldo_Cliente.cs" />
+    <Compile Include="BL\Vista_Saldo_Cliente.cs" />
+    <Compile Include="ControlSoderiaDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlSoderiaDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSoderiaDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlSoderiaDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datos\ClientesBD.cs" />
+    <Compile Include="Datos\ConexionBD.cs" />
+    <Compile Include="Datos\Mantenimiento_VehiculosBD.cs" />
+    <Compile Include="Datos\ProductosBD.cs" />
+    <Compile Include="Datos\ProveedoresBD.cs" />
+    <Compile Include="Datos\RecibosBD.cs" />
+    <Compile Include="Datos\RegistrosBD.cs" />
+    <Compile Include="Datos\RepartosBD.cs" />
+    <Compile Include="Datos\SaldosBD.cs" />
+    <Compile Include="GUI\AcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AcercaDe.Designer.cs">
+      <DependentUpon>AcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmClientesAE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmClientesAE.Designer.cs">
+      <DependentUpon>frmClientesAE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmFactura.Designer.cs">
+      <DependentUpon>frmFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmListaReparto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmListaReparto.Designer.cs">
+      <DependentUpon>frmListaReparto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmMantenimiento_VechiulosAE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmMantenimiento_VechiulosAE.Designer.cs">
+      <DependentUpon>frmMantenimiento_VechiulosAE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmMantenimiento_Vehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmMantenimiento_Vehiculos.Designer.cs">
+      <DependentUpon>frmMantenimiento_Vehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmProductosAE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmProductosAE.Designer.cs">
+      <DependentUpon>frmProductosAE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmProveedores.Designer.cs">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmProveedoresAE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmProveedoresAE.Designer.cs">
+      <DependentUpon>frmProveedoresAE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmRecaudacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmRecaudacion.Designer.cs">
+      <DependentUpon>frmRecaudacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmRegistros_Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmRegistros_Ventas.Designer.cs">
+      <DependentUpon>frmRegistros_Ventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmReparto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmReparto.Designer.cs">
+      <DependentUpon>frmReparto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmRepartoAE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmRepartoAE.Designer.cs">
+      <DependentUpon>frmRepartoAE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmSaldoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmSaldoCliente.Designer.cs">
+      <DependentUpon>frmSaldoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ListadoReparto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ListadoReparto.Designer.cs">
+      <DependentUpon>ListadoReparto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\AcercaDe.resx">
+      <DependentUpon>AcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmClientesAE.resx">
+      <DependentUpon>frmClientesAE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmFactura.resx">
+      <DependentUpon>frmFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmListaReparto.resx">
+      <DependentUpon>frmListaReparto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMantenimiento_VechiulosAE.resx">
+      <DependentUpon>frmMantenimiento_VechiulosAE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMantenimiento_Vehiculos.resx">
+      <DependentUpon>frmMantenimiento_Vehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmProductosAE.resx">
+      <DependentUpon>frmProductosAE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmProveedores.resx">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmProveedoresAE.resx">
+      <DependentUpon>frmProveedoresAE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmRecaudacion.resx">
+      <DependentUpon>frmRecaudacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmRegistros_Ventas.resx">
+      <DependentUpon>frmRegistros_Ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmReparto.resx">
+      <DependentUpon>frmReparto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmRepartoAE.resx">
+      <DependentUpon>frmRepartoAE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmSaldoCliente.resx">
+      <DependentUpon>frmSaldoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ListadoReparto.resx">
+      <DependentUpon>ListadoReparto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ControlSoderiaDataSet3.xsc">
+      <DependentUpon>ControlSoderiaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ControlSoderiaDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ControlSoderiaDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ControlSoderiaDataSet3.xss">
+      <DependentUpon>ControlSoderiaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ControlSoderiaDataSet4.xsc">
+      <DependentUpon>ControlSoderiaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ControlSoderiaDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ControlSoderiaDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ControlSoderiaDataSet4.xss">
+      <DependentUpon>ControlSoderiaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\95A.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice_model.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invoice.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_Control_Panel.ico" />
+    <None Include="Resources\FactModel.jpg" />
+    <None Include="Resources\facturanueva.jpg" />
+    <None Include="Resources\factkalu.jpg" />
+    <None Include="Resources\98.PNG" />
+    <None Include="Resources\factura.png" />
+    <None Include="Resources\modelo_factura.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,67 @@
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\ControlSoderia.exe.config
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\ControlSoderia.exe
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\ControlSoderia.pdb
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\DGV2Printer.dll
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\FlashControlV71.dll
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\itextsharp.dll
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\stdole.dll
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\DGV2Printer.pdb
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\bin\Debug\itextsharp.xml
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.AcercaDe.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmClientes.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmClientesAE.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmFactura.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmListaReparto.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmMantenimiento_VechiulosAE.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmMantenimiento_Vehiculos.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmMenuPrincipal.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmPrincipal.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProductos.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProductosAE.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProveedores.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProveedoresAE.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmRecaudacion.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmRegistros_Ventas.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmReparto.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmRepartoAE.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmSaldoCliente.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.ListadoReparto.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.exe
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.pdb
+C:\Users\Rodrigo\Documents\Visual Studio 2015\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.csprojResolveAssemblyReference.cache
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\bin\Debug\ControlSoderia.exe.config
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\bin\Debug\ControlSoderia.exe
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\bin\Debug\ControlSoderia.pdb
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\bin\Debug\itextsharp.dll
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\bin\Debug\ShockwaveFlashObjects.dll
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\bin\Debug\stdole.dll
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\bin\Debug\DGV2Printer.pdb
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.csprojAssemblyReference.cache
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.AcercaDe.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmClientes.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmClientesAE.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmFactura.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmListaReparto.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmMantenimiento_VechiulosAE.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmMantenimiento_Vehiculos.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmMenuPrincipal.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmPrincipal.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProductos.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProductosAE.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProveedores.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmProveedoresAE.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmRecaudacion.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmRegistros_Ventas.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmReparto.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmRepartoAE.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.frmSaldoCliente.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.GUI.ListadoReparto.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.Properties.Resources.resources
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.csproj.GenerateResource.cache
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.csproj.CoreCompileInputs.cache
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.csproj.CopyComplete
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.exe
+D:\Mi Backup\Projects\ControlSoderia\ControlSoderia\obj\Debug\ControlSoderia.pdb
